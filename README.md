@@ -20,11 +20,11 @@ Download the Intel MiDaS Lite model from tensorflow hub [here](https://tfhub.dev
 Run depth estimation on a single image
 
 ```shell
-    python monocular_img.py image_name.jpg 
+    python img_depth.py image_name.jpg 
 ``` 
 
 For example 
 
 ```shell
-    python monocular_img.py test_img.jpg 
+    python img_depth.py test_img.jpg 
 ``` 
