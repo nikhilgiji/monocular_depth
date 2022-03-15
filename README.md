@@ -7,8 +7,9 @@ Real time monocular depth estimation using intel MiDaS
 
 ### Download Model 
 
-create a model directory and cd into it
+Create a model directory and cd into it
 
 ```shell
     mkdir model && cd model
 ```
+Download the Intel MiDaS Lite model from tensorflow hub [here](https://tfhub.dev/intel/lite-model/midas/v2_1_small/1/lite/1) inside the model folder.
