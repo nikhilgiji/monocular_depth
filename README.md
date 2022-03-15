@@ -15,7 +15,7 @@ Create a model directory and cd into it
 Download the Intel MiDaS Lite model from tensorflow hub [here](https://tfhub.dev/intel/lite-model/midas/v2_1_small/1/lite/1) inside the model folder. 
 
 
-### Run Image 
+### Image Depth Estimation
 
 Run depth estimation on a single image
 
