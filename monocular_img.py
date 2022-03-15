@@ -20,7 +20,7 @@ def monocular_img(img_path):
     tensor = tf.convert_to_tensor(reshape_img, dtype=tf.float32)
 
     # load the intel midas model 
-    model = "midas_model\lite-model_midas_v2_1_small_1_lite_1.tflite"
+    model = "model\lite-model_midas_v2_1_small_1_lite_1.tflite"
     interpreter = tf.lite.Interpreter(model_path=model)
     interpreter.allocate_tensors()
     input_details = interpreter.get_input_details()
